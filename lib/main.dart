@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_2/ui/form_data.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,11 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        title: "Flutter Pertemuan 2",
-        home: Scaffold(
-            appBar: AppBar(
-          title: Text("Flutter Pertemuan 2"),
-        )));
+    return const MaterialApp(
+      title: "Praktikum Tugas 2",
+      home: Scaffold(
+        body: FormData(),
+      ),
+    );
   }
 }
